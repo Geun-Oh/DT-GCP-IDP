@@ -1,5 +1,5 @@
 provider "google" {
-  credentials = jsondecode(var.credential_file)
+  credentials = var.credential_file
   project     = var.project_name
   region      = var.region
 }
