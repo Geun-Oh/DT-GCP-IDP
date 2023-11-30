@@ -1,7 +1,5 @@
 cred-file.json
 src.zip
-/src/*
-
 # Local .terraform directories
 **/.terraform/*
 
