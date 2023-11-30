@@ -11,7 +11,7 @@ resource "google_storage_bucket_object" "object" {
 }
 
 resource "google_cloudfunctions2_function" "function" {
-  name        = "new-function"
+  name        = "test-function"
   location    = var.region
   description = "gcp deploy"
 
