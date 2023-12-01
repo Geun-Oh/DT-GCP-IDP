@@ -1,7 +1,7 @@
 const functions = require("@google-cloud/functions-framework");
 
 const fn = () => {
-  console.log("test");
+  console.log("hello world!!!!!!!!!");
 };
 
 functions.http("helloHttp", (req, res) => {

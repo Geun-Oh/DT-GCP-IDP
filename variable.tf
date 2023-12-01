@@ -16,3 +16,13 @@ variable "bucket_name" {
   description = "Bucket Name"
   type        = string
 }
+
+variable "function_name" {
+  description = "Function Name"
+  type        = string
+}
+
+variable "entry_point" {
+  description = "Entry Point"
+  type        = string
+}
